@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> Homepage</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header-left">
+  			<a href="#default" class="logo">Sri Raghavendra Book Stall</a>
+  		</div>
+  		<div class="header-right">
+  			<a href="Tel:080-22220608">Tel:080-22220608</a>
+  		</div>
+  	</div>
+	<div class="container1">
+		<div class="nav-wrapper">
+			<div class="left-side">
+
+				<!-- The overlay -->
+			<div id="myNav" class="overlay">
+
+  				<!-- Button to close the overlay navigation -->
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+ 			 <!-- Overlay content -->
+  			<div class="overlay-content">
+  			<a href="about.html">About Us</a>
+    		<a href="#">Services</a>
+    		<a href="contact.html">Contact</a>
+  			</div>
+
+			</div>
+
+			<div class="spanoverlay">
+
+			<!-- Use any element to open/show the overlay navigation menu -->
+			<span style="font-size:0.9rem; display: flex;
+			 grid-template-columns: 1fr;
+			 justify-content: space-between;
+			  cursor:pointer" onclick="openNav()">&#9776;</span>
+
+			 </div>
+
+				<div class="nav-link-wrapper">
+					<a href="index.html"> HOME </a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="books.html">BOOKS</a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="textbooks1.html"> TEXTBOOKS </a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="stationery1.html"> STATIONERY </a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="reccomended.html"> RECCOMENDED </a>
+				</div>
+			</div>
+
+			<div class="right-side">
+				<div class="about">
+					<div class="nav-link-wrapper">
+						<a href="about.html">ABOUT US </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="hero-image">
+		<div class="hero-text">
+			<h1> The Ultimate Stationery Shop </h1>
+		</div>
+	</div>
+
+	<title>Bootstrap Product List Carousel for Ecommerce Website</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<style>
+		h2 {
+			color: #000;
+			font-size: 26px;
+			font-weight: 300;
+			text-align: center;
+			text-transform: uppercase;
+			position: relative;
+			margin: 30px 0 80px;
+			color: #ffc000;
+			}
+		h2::after {
+		content: "";
+		width: 100px;
+		position: absolute;
+		margin: 0 auto;
+		height: 4px;
+		background: rgba(0, 0, 0, 0.2);
+		left: 0;
+		right: 0;
+		bottom: -20px;
+		}
+	</style>
+	<div class="container2">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>BestSellers</h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			<!-- Wrapper for carousel items -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/BangalorePress.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Bangalore Press</h4>
+									<p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/bhagyalakshmi.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Bhagyalakshmi Calendar</h4>
+									<p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>		
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/mallige.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Mallige Calendar</h4>
+									<p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>								
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/kalanirnaya.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Kalanirnaya Calendar</h4>
+									<p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/classmate.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Classmate Longnote</h4>
+									<p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/chandras.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Chandras Longnote</h4>
+									<p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="/examples/images/products/speaker.jpg" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Bose Speaker</h4>
+									<p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/mangal.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Mangal Longnote</h4>
+									<p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/doms.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Doms Geometry Box </h4>
+									<p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/fabercastell.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Faber Castell Geometry Box</h4>
+									<p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/camlin.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Camlin Geometry Box</h4>
+									<p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>	
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="images/natraj.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Natraj Geometry Box</h4>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-- Carousel controls -->
+			<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="footer">
+		<a href="https://www.google.com/maps/place/Sri+Ragavendra+Book+Stall/@12.96531,77.5753193,17z/data=!4m8!1m2!2m1!1ssri+raghavendra+book+stall+near+Avenue+Road,+Bengaluru,+Karnataka!3m4!1s0x3bae15e26c7718fb:0x35fb0d896dd67e4c!8m2!3d12.96531!4d77.577508" target="_blank"> Address: #83 Ragipet, Avenue Road, Old Tharagupet, Nagarthpet, Bengaluru, Karnataka 560002 </a>
+	</div>
+</body>
+<script>
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+const carouselImages = document.querySelector('.carousel__images');
+const images = document.querySelectorAll('.carousel__images img');
+const carouselButtons = document.querySelectorAll('.carousel__button');
+const numberOfImages = document.querySelectorAll('.carousel__images img').length;
+let imageIndex = 1;
+let translateX = 0;
+
+carouselButtons.forEach(button => {
+  button.addEventListener('click', (event) => {
+    if (event.target.id === 'previous') {
+      if (imageIndex !== 1) {
+        imageIndex--;
+        translateX += 250;
+      }
+    } else {
+      if (imageIndex !== numberOfImages) {
+        imageIndex++;
+        translateX -= 250;
+      }
+    }
+    
+    carouselImages.style.transform = `translateX(${translateX}px)`;
+    images.forEach((image, index) => {
+      if (index === imageIndex - 1) {
+        image.classList.add('active');
+      } else {
+        image.classList.remove('active');
+      }
+    });
+  });
+});
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+
+</script>
+</html>
+
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8"/>
+	<title> Homepage</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="header">
+		<div class="header-left">
+  			<a href="#default" class="logo">Sri Raghavendra Book Stall</a>
+  		</div>
+  		<div class="header-right">
+  			<a href="Tel:080-22220608">Tel:080-22220608</a>
+  		</div>
+  	</div>
+	<div class="container1">
+		<div class="nav-wrapper">
+			<div class="left-side">
+					<!-- The overlay -->
+			<div id="myNav" class="overlay">
+
+  				<!-- Button to close the overlay navigation -->
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+ 			 <!-- Overlay content -->
+  			<div class="overlay-content">
+  			<a href="about.html">About Us</a>
+    		<a href="#">Services</a>
+    		<a href="contact.html">Contact</a>
+  			</div>
+
+			</div>
+
+			<div class="spanoverlay">
+
+			<!-- Use any element to open/show the overlay navigation menu -->
+			<span style="font-size:0.9rem; display: flex;
+			 grid-template-columns: 1fr;
+			 justify-content: space-between;
+			  cursor:pointer" onclick="openNav()">&#9776;</span>
+
+			</div>
+
+				<div class="nav-link-wrapper">
+					<a href="index.html"> HOME </a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="books.html">BOOKS</a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="textbooks1.html"> TEXTBOOKS </a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="stationery1.html"> STATIONERY </a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="reccomended.html"> RECCOMENDED </a>
+				</div>
+			</div>
+
+			<div class="right-side">
+				<div class="about">
+					<div class="nav-link-wrapper">
+						<a href="about.html">ABOUT US </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-wrapper">
+			<div class="two-column-wrapper">
+				<div class="book-image-wrapper">
+					<img src="images/shop.jpeg" alt="">
+				</div>
+
+				<div class="book-content-wrapper">
+					<h1>About Sri Raghavendra Book Stall</h1>
+					<p>Sri Raghavendra Book Stall was established in 1973 with one mission: to bring a high quality book store to Bengaluru area.</p>
+					<p>Our passion for excellence inspired us in the beginning and continues to drive us today. We take pride on offering a superior shopping experience and in the long term relationship we've built with our customers</p>
+					<p>Come visit our shop and try for yourself</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="about-card">
+	<h2 style="text-align:center">Our Team</h2>
+	<div class="card-about">
+  <img src="images/profile.jpeg" alt="L R Krishna Murthy" style="width:100%">
+  <h1>L R Krishnamurthy</h1>
+  <p class="title">CEO & Founder</p>
+  <a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <p><button-about>Contact <a href="9341230381"></a></button-about></p>
+</div>
+</div>
+
+
+
+</body>
+
+<script>
+
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</html>
